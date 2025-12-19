@@ -2,12 +2,12 @@
   "name": "hr-dashboard",
   "version": "0.0.0",
   "scripts": {
-      "ng": "ng",
-      "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider npx -p @angular/cli@12.2.18 ng serve",
-      "build": "ng build",
-      "watch": "cross-env NODE_OPTIONS=--openssl-legacy-provider npx -p @angular/cli@12.2.18 ng build --watch --configuration development",
-      "test": "ng test"
-    },
+    "ng": "ng",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider npx -p @angular/cli@12.2.18 ng serve",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider ng build",
+    "watch": "cross-env NODE_OPTIONS=--openssl-legacy-provider npx -p @angular/cli@12.2.18 ng build --watch --configuration development",
+    "test": "ng test"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.0",
